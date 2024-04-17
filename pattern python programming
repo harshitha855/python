@@ -1,0 +1,31 @@
+
+n=int(input())
+val=1
+for i in range(n):
+   for j in range(i+1):
+       print(val,end=" ")
+       val=val+1
+   print() 
+   
+
+   n=int(input())
+for i in range(n):
+   for j in range(i+1):
+       if i % 2 ==0:
+          print("*",end=" ")  
+       else:    
+          print("#",end=" ")
+   print()
+
+
+   
+n=int(input())
+spaces=n-1
+stars=1
+for i in range(n):
+   for j in range(spaces):
+       print("-",end=" ") 
+   for j in range(stars):
+           print("*",end=" ")
+   print() 
+
